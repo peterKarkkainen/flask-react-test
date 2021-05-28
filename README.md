@@ -11,6 +11,7 @@ Build a React Form where you'd be able to select a name from a list of 3000 name
 5. As an addition: you can provide any type of type validation for the incoming value on the POST endpoint. 
 
 You can use any front-end and back-end libraries of your choice.
+Don't feel pressed to complete all the features, you'd be able to talk us through your projected solution
 
 ## Tech Stack
 
