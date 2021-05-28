@@ -1,13 +1,16 @@
 # Fullstack Boilerplate
 
-Use it for setting up a take-home interview assignment or a portfolio project.
+Build a React Form where you'd be able to select a name from a list of 3000 names, show the selected value and submit.
 
-## Contents
+## Instructions
 
-- [Backend service](https://github.com/DevSkillsHQ/fullstack-boilerplate-flask-react/tree/main/app-flask) - a Flask service with a `/ping` endpoint. Extend with your code.
-- [Frontend app](https://github.com/DevSkillsHQ/fullstack-boilerplate-flask-react/tree/main/app-react) - a React app. Extend with your code.
-- [E2E test suites](https://github.com/DevSkillsHQ/fullstack-boilerplate-flask-react/tree/main/cypress/integration) - a backend and a frontend Cypress test suites. Extend with your tests.
-- [Pipeline](https://github.com/DevSkillsHQ/fullstack-boilerplate-flask-react/blob/main/.github/workflows/tests.yml) - a test Runner that executes the Cypress tests on push to a branch other than `master`/`main`.
+1. Use any approach for setting up the Flask from app-flask folder, install the required packages
+2. Set up React from app-react folder
+3. Build a simple form that would allow a user to select a name from a very long list, visually confirm the selected value and submit the form to the back-end
+4. The back-end endpoint for GET is  '/data', for POST is '/result'.
+5. As an addition: you can provide any type of type validation for the incoming value on the POST endpoint. 
+
+You can use any front-end and back-end libraries of your choice.
 
 ## Tech Stack
 
@@ -15,11 +18,7 @@ Use it for setting up a take-home interview assignment or a portfolio project.
 - create-react-app
 - Python 3
 - Flask
-- Cypress
-- GitHub Actions
 
 ---
 
-Made by [DevSkills](https://devskills.co).
-
-Did you find this repo useful? **Give us a shout on [Twitter](https://twitter.com/DevSkillsHQ) / [LinkedIn](https://www.linkedin.com/company/devskills)**.
+Based on the boilerplate from [DevSkills](https://devskills.co).
