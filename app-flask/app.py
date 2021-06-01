@@ -3,11 +3,11 @@ import random
 
 from flask import Flask, jsonify
 from faker import Faker
-
+from flask_cors import CORS
 
 
 app = Flask(__name__)
-
+CORS(app)
 
 os.environ["FLASK_ENV"] = "development"
 
